@@ -1,6 +1,3 @@
-# waitwhaa.github.io
-
-<!DOCTYPE html>
 <html>
   <head>
     <title>Invention Game</title>
