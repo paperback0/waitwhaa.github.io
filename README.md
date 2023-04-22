@@ -1,4 +1,3 @@
-
 <html>
   <head>
     <title>Invention Game</title>
@@ -11,7 +10,7 @@
       
       button {
         font-size: 2.4em;
-        margin: 100px;
+        margin: 70px;
         padding: 30px;
       }
     </style>
@@ -108,4 +107,3 @@
     </script>
   </body>
 </html>
-
