@@ -1,21 +1,35 @@
+
 <html>
   <head>
     <title>Invention Game</title>
     <style>
+      body {
+        background-image: url("https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_18/1432153/cinco-de-mayo-celebrations-today-main-190501.jpg");
+        background-size: cover;
+      }
+      
       #game-board {
         display: flex;
         flex-direction: column;
         align-items: center;
       }
       
-      button {
+            button {
         font-size: 2.4em;
         margin: 70px;
         padding: 30px;
       }
+      
+      /* added styles for the h1 element */
+      h1 {
+        font-size: 2.5em;
+        background-color: #ccc;
+        padding: 20px 20px 10px 10px;
+      }
     </style>
   </head>
   <body>
+    
     <h1><center>What happened first?</center></h1>
     <div id="game-board">
       <h2>Score: <span id="score">0</span></h2>
@@ -29,10 +43,13 @@
     <script>
       // generate a list of items and their corresponding years
       const itemList = [
-        { item: "Telephone", year: 1876 },
-        { item: "Television", year: 1927 },
-        { item: "Computer", year: 1941 },
-        { item: "Lightbulb", year: 1879}
+        { item: "The Battle Of Puebla", year: 1862 },
+        { item: "Mexican Independance Declared", year: 1810 },
+        { item: "The Mexican Peso becoming the official currency of mexico", year: 1823 },
+        { item: "The First Commercial Flight by a Mexican Airline", year: 1921},
+        { item: "The Establishing of the Bank Of Mexio", year: 1925},
+        { item: "The First Celebration of Cinco De Mayo in the USA", year: 1863},
+
         // add more items and years as needed
       ];
 
