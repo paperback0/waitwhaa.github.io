@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
   <head>
     <title>Invention Game</title>
@@ -63,13 +63,14 @@
           // user was correct
           score++;
           document.getElementById("score").textContent = score;
-          
+
           
 
         } else {
           // user was incorrect
           score = 0;
           document.getElementById("score").textContent = score;
+          alert("Incorrect!");
           
         }
         selectItems();
@@ -87,6 +88,7 @@
           // user was incorrect
           score = 0;
           document.getElementById("score").textContent = score;
+          alert("Incorrect!");
           
         }
         selectItems();
@@ -106,3 +108,4 @@
     </script>
   </body>
 </html>
+
