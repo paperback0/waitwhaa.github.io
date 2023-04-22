@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Invention Game</title>
@@ -9,9 +10,9 @@
       }
       
       button {
-        font-size: 1.5em;
-        margin: 10px;
-        padding: 10px;
+        font-size: 2.4em;
+        margin: 100px;
+        padding: 30px;
       }
     </style>
   </head>
@@ -62,13 +63,14 @@
           // user was correct
           score++;
           document.getElementById("score").textContent = score;
-          alert("Correct!");
           
+          
+
         } else {
           // user was incorrect
           score = 0;
           document.getElementById("score").textContent = score;
-          alert("Incorrect!");
+          
         }
         selectItems();
         item1Btn.textContent = item1.item;
@@ -80,12 +82,12 @@
           // user was correct
           score++;
           document.getElementById("score").textContent = score;
-          alert("Correct!");
+          
         } else {
           // user was incorrect
           score = 0;
           document.getElementById("score").textContent = score;
-          alert("Incorrect!");
+          
         }
         selectItems();
         item1Btn.textContent = item1.item;
