@@ -1,4 +1,3 @@
-
 <html>
   <head>
     <title>Invention Game</title>
@@ -14,10 +13,12 @@
         align-items: center;
       }
       
-            button {
+      button {
         font-size: 2.4em;
         margin: 70px;
         padding: 30px;
+        /* ========= add this to keep the whitespace to that the new line shows properly ========== */
+        white-space: pre;
       }
       
       /* added styles for the h1 element */
@@ -25,6 +26,16 @@
         font-size: 2.5em;
         background-color: #ccc;
         padding: 20px 20px 10px 10px;
+
+
+      }
+
+      h2 {
+        font-size: 2em;
+        background-color: #ccc;
+        padding: 10px 10px 10px 10px;
+
+      
       }
     </style>
   </head>
@@ -37,8 +48,8 @@
         <button id="item1"></button>
         <button id="item2"></button>
       </div>
-      <button id="play-again">Play Again</button>
-    </div>
+    </div> 
+
 
     <script>
       // generate a list of items and their corresponding years
@@ -49,6 +60,9 @@
         { item: "The First Commercial Flight by a Mexican Airline", year: 1921},
         { item: "The Establishing of the Bank Of Mexio", year: 1925},
         { item: "The First Celebration of Cinco De Mayo in the USA", year: 1863},
+        { item: "The Mexican Revolution", year: 1910},
+        { item: "The DISCOVERY of Machu Picchu", year: 1911},
+
 
         // add more items and years as needed
       ];
@@ -71,6 +85,7 @@
       const item2Btn = document.getElementById("item2");
       item1Btn.textContent = item1.item;
       item2Btn.textContent = item2.item;
+      
 
       // add event listener to the buttons
       let score = 0;
@@ -79,19 +94,24 @@
           // user was correct
           score++;
           document.getElementById("score").textContent = score;
-
-          
-
         } else {
           // user was incorrect
           score = 0;
           document.getElementById("score").textContent = score;
           alert("Incorrect!");
-          
         }
-        selectItems();
-        item1Btn.textContent = item1.item;
-        item2Btn.textContent = item2.item;
+        
+        //  ======== display the year on both buttons, \n is a new line so that it shows below the text===========
+        item1Btn.textContent += '\n Year is: ' + item1.year;
+        item2Btn.textContent += '\n Year is: ' + item2.year;
+      
+        // ========== Wait 2 seconds and then change the text to the next one
+        // so that the year can be seen by the user, and not changed instantly ===========
+        setTimeout(() => {
+            selectItems();
+          item1Btn.textContent = item1.item;
+            item2Btn.textContent = item2.item;
+        }, 2000);
       });
 
       item2Btn.addEventListener("click", () => {
@@ -99,20 +119,28 @@
           // user was correct
           score++;
           document.getElementById("score").textContent = score;
-          
         } else {
           // user was incorrect
           score = 0;
           document.getElementById("score").textContent = score;
           alert("Incorrect!");
-          
         }
-        selectItems();
-        item1Btn.textContent = item1.item;
-        item2Btn.textContent = item2.item;
+        
+        //  ======== display the year ===========
+        item1Btn.textContent += '\n Year is: ' + item1.year;
+        item2Btn.textContent += '\n Year is: ' + item2.year;
+      
+        // ========== Wait 2 seconds and then change the text to the next one
+        // so that the year can be seen by the user, and not changed instantly ===========
+        setTimeout(() => {
+            selectItems();
+          item1Btn.textContent = item1.item;
+            item2Btn.textContent = item2.item;
+        }, 2000);
       });
 
       // add event listener to the play again button
+      // ============= your play again button is not found, so it will error, so you should add it ===============
       const playAgainBtn = document.getElementById("play-again");
       playAgainBtn.addEventListener("click", () => {
         score = 0;
