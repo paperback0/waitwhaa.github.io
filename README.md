@@ -56,16 +56,16 @@
       const itemList = [
         { item: "   The Battle Of Puebla", year: 1862 },
         { item: "   Mexican Independance Declared", year: 1810 },
-        { item: "   The Mexican Peso becoming the official currency of mexico", year: 1823 },
+        { item: "   The Mexican Peso set as the official currency of mexico", year: 1823 },
         { item: "   The First Commercial Flight by a Mexican Airline", year: 1921},
         { item: "   The Establishing of the Bank Of Mexico", year: 1925},
         { item: "   The First Celebration of Cinco De Mayo in the USA", year: 1863},
         { item: "   The Mexican Revolution", year: 1910},
         { item: "   The DISCOVERY of Machu Picchu", year: 1911},
-        { item: "   The Alamo battle (The US and Mexicos battle for Texas)", year: 1836},
-        { item: "   The Mexican-US war begins", year: 1846},
+        { item: "   The Alamo battle (The US and Mexico's battle for Texas)", year: 1836},
+        { item: "   The Mexico-US war begins", year: 1846},
         { item: "   The Mexican constitution is written", year: 1917},
-        { item: "   The Tlatelolco Massacre (government forces killed protesting students in Mexico City)", year: 1968},
+        { item: "   The Tlatelolco Massacre (Gov. killed student protesters)", year: 1968},
 
 
         // add more items and years as needed
