@@ -62,6 +62,8 @@
       { item: "The First Celebration of Cinco De Mayo in the USA", year: 1863},
       { item: "The Mexican Revolution", year: 1910},
       { item: "The DISCOVERY of Machu Picchu", year: 1911},
+      { item: "The first Day of the Dead", year: 1500},
+      { item: "The starting of the Mexican-American war", year: 1846}
 
 
       // add more items and years as needed
