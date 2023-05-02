@@ -54,8 +54,8 @@
     <script>
       // generate a list of items and their corresponding years
       const itemList = [
-      { item: "The Battle Of Puebla", year: 1862 },
-      { item: "Mexican Independance Declared", year: 1821 },
+      { item: "The Battle Of Puebla", year: 1862},
+      { item: "Mexican Independance Declared", year: 1821},
       { item: "The Mexican Peso becoming the official currency of mexico", year: 1823 },
       { item: "The First Commercial Flight by a Mexican Airline", year: 1921},
       { item: "The Establishing of the Bank Of Mexio", year: 1925},
@@ -64,6 +64,13 @@
       { item: "The DISCOVERY of Machu Picchu", year: 1911},
       { item: "The first Day of the Dead", year: 1500},
       { item: "The starting of the Mexican-American war", year: 1846}
+      { item: "The Mexican-American War Ends with the Treaty of Guadalupe Hidalgo", year: 1848},
+      { item: "The Mexican Olympic Games in Mexico City", year: 1968},
+      { item: "The Mexico City Earthquake", year: 1985},
+      { item: "The Mexican Government's War on Drugs", year: 2006},
+      { item: "The Mexican Space Program", year: 2010},
+      { item: "The Mexican Government's Program to Promote Ecotourism", year: 2001},
+      
 
 
       // add more items and years as needed
