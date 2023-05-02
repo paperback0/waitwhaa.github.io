@@ -63,7 +63,7 @@
       { item: "The Mexican Revolution", year: 1910},
       { item: "The DISCOVERY of Machu Picchu", year: 1911},
       { item: "The first Day of the Dead", year: 1500},
-      { item: "The starting of the Mexican-American war", year: 1846}
+      { item: "The starting of the Mexican-American war", year: 1846},
       { item: "The Mexican-American War Ends with the Treaty of Guadalupe Hidalgo", year: 1848},
       { item: "The Mexican Olympic Games in Mexico City", year: 1968},
       { item: "The Mexico City Earthquake", year: 1985},
