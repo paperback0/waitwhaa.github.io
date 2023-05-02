@@ -55,7 +55,7 @@
       // generate a list of items and their corresponding years
       const itemList = [
       { item: "The Battle Of Puebla", year: 1862},
-      { item: "Mexican Independance Declared", year: 1821},
+      { item: "Mexican Independence Declared", year: 1821},
       { item: "The Mexican Peso becoming the official currency of mexico", year: 1823 },
       { item: "The First Commercial Flight by a Mexican Airline", year: 1921},
       { item: "The Establishing of the Bank Of Mexio", year: 1925},
